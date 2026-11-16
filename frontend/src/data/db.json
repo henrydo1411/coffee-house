@@ -1,0 +1,155 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Coffee"
+    },
+    {
+      "id": "2",
+      "name": "Tea"
+    },
+    {
+      "id": "3",
+      "name": "Cake"
+    },
+    {
+      "id": "4",
+      "name": "Smoothie"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Cappuccino",
+      "categoryId": 1,
+      "price": 55000,
+      "description": "Classic Italian coffee made with espresso, steamed milk and milk foam.",
+      "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "id": "2",
+      "name": "Caffe Latte",
+      "categoryId": 1,
+      "price": 60000,
+      "description": "Smooth espresso combined with steamed milk and a thin layer of foam.",
+      "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "id": "3",
+      "name": "Americano",
+      "categoryId": 1,
+      "price": 45000,
+      "description": "Espresso mixed with hot water for a rich and smooth coffee flavor.",
+      "image": "https://images.unsplash.com/photo-1551030173-122aabc4489c?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "id": "4",
+      "name": "Caramel Macchiato",
+      "categoryId": 1,
+      "price": 65000,
+      "description": "Espresso with steamed milk, vanilla syrup and caramel topping.",
+      "image": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "id": "5",
+      "name": "Espresso",
+      "categoryId": 1,
+      "price": 40000,
+      "description": "Strong and rich Italian espresso with an intense coffee flavor.",
+      "image": "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "id": "6",
+      "name": "Green Tea",
+      "categoryId": 2,
+      "price": 40000,
+      "description": "Refreshing green tea with a light and natural flavor.",
+      "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "id": "7",
+      "name": "Peach Tea",
+      "categoryId": 2,
+      "price": 50000,
+      "description": "Refreshing iced tea combined with sweet and fruity peach flavor.",
+      "image": "https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "id": "8",
+      "name": "Lemon Tea",
+      "categoryId": 2,
+      "price": 45000,
+      "description": "Fresh tea combined with a refreshing lemon flavor.",
+      "image": "https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "id": "9",
+      "name": "Chocolate Cake",
+      "categoryId": 3,
+      "price": 65000,
+      "description": "Soft chocolate cake covered with rich chocolate cream.",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "name": "Cheesecake",
+      "price": 70000,
+      "description": "Creamy cheesecake with a soft texture and a buttery biscuit base.",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80",
+      "categoryId": "3",
+      "id": "10"
+    },
+    {
+      "id": "11",
+      "name": "Tiramisu",
+      "categoryId": 3,
+      "price": 75000,
+      "description": "Classic Italian dessert made with coffee, cream and cocoa powder.",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "id": "12",
+      "name": "Strawberry Smoothie",
+      "categoryId": 4,
+      "price": 60000,
+      "description": "Fresh strawberry smoothie blended with milk and ice.",
+      "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "id": "13",
+      "name": "Mango Smoothie",
+      "categoryId": 4,
+      "price": 60000,
+      "description": "Fresh mango blended into a creamy and refreshing smoothie.",
+      "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "id": "14",
+      "name": "Banana Smoothie",
+      "categoryId": 4,
+      "price": 55000,
+      "description": "Creamy banana smoothie blended with fresh milk.",
+      "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=600&q=80",
+      "status": "Available"
+    },
+    {
+      "name": "Crossaint",
+      "price": 50000,
+      "description": "bánh sừng bò",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4qGgcV56nGlNP1KYMKlJ-ZlR32OMkhaudxjBoVNsqDWlNPOvN8O0Knho&s=10",
+      "categoryId": "3",
+      "id": "bW-Pz2ozgLw"
+    }
+  ]
+}
